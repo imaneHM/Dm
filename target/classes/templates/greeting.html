@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th=" http://www.thymeleaf.org ">
+<head>
+    <title>Blog</title>
+        <meta http-equiv="Content-Type"content ="text/html;charset=UTF-8" />
+</head>
+<div th:replace="fragment/h1:: header">
+</div>
+
+<body>
+    <p th:text ="'Bonjour ' + ${nomTemplate} + ' ! '" />
+    <nav class="navbar1">
+        <a class="navbar" href="http://localhost:9090/addresses"> Navbar</a>
+    </nav>
+
+
+</body>
+
+</html>
